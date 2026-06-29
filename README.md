@@ -13,7 +13,7 @@ O objetivo deste projeto é praticar a criação de cenários automatizados, org
 
 ## Funcionalidades testadas
 
-Atualmente, o projeto cobre o fluxo de login da aplicação.
+Atualmente, o projeto cobre cenários de login e adição de produtos ao carrinho.
 
 ### Login
 
@@ -40,7 +40,7 @@ Atualmente, o projeto cobre o fluxo de login da aplicação.
         o botão "Add to cart" deve se transformar no botão "remove"
 
 
-#### CART-01 - Adição de produto pela tela do produto
+#### CART-02 - Adição de produto pela tela do produto
 
 **Dado** que o usuário realizou login e está na URL `https://www.saucedemo.com/inventory.html`  
 **Quando** o usuário clica no botão "Add to cart" dentro da tela do produto específico `https://www.saucedemo.com/inventory-item.html?id=(id do produto)`   

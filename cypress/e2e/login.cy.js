@@ -1,5 +1,3 @@
-
-
 describe('login', () => {
   it('realiza o login com sucesso', () => {
     cy.visit('https://www.saucedemo.com/')
